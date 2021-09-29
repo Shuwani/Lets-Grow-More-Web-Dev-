@@ -1,0 +1,251 @@
+/* SCROLL */
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+/* NAVIGATION BAR */
+
+.navbar {
+    padding: 0 0 0.5rem 0;
+}
+.navbar-brand {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 200px;
+    margin-right: 100px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+}
+.nav-item {
+    margin-top: 15px;
+    padding: 0 18px 0 18px;
+}
+.nav-link {
+    font-size: 1.0rem;
+    font-weight:600;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* CAROUSEL */
+
+#image{
+    height: 580px;
+    max-width: 100%;
+}
+.carousel-inner .heading1{
+    font-size: 52px;
+    max-width:60%;
+    text-align: left;
+}
+.carousel-inner .p1{
+    font-size: 23px;
+    max-width:60%;
+    text-align: left;
+}
+.button{
+    text-align: left;
+}
+
+/* HOME */
+
+#HomePage{
+    margin-top: 50px;
+}
+#umbrellatxt{
+    width: 60%;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.fea{
+    text-align: left;
+}
+.icon-blue{
+    color: rgba(128, 0, 128, 0.918);
+    margin-bottom: 20px;
+}
+#v1{
+    border-right: 0.5px solid rgba(0, 0, 0, 0.329);
+    height: 210px;
+}
+
+/* PROJECTS */
+
+#image1{
+    width: auto;
+    height:500px;
+}
+.card-body:hover{
+    background: yellow;
+}
+
+/* PRICING */
+
+.text1{
+    font-weight: bolder;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.btn-warning:hover{
+    color: #fff;
+    background-color:rgb(119, 5, 121);
+    border-color: #285e8e; 
+}
+.btn-secondary:hover{
+    color: #fff;
+    background-color:rgb(119, 5, 121);
+    border-color: #285e8e; 
+}
+
+/* VIDEOS */
+
+.head1{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+#rows{
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.videos{
+    background-color: #361050;
+}
+
+/* ZIPPY TEAM */
+
+table,th,td {
+    padding:30px;
+  }
+table {
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+}
+.name{
+    font-size: 50px;
+}
+
+/* LIFE IN ZIPPY */
+
+#lifeinzippy{
+    background-color: rgb(211, 211, 211);
+    padding-bottom: 2%;
+  }
+  .head2{
+    padding-top:4%;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  #images{
+      width:750px;
+      height: 500px;
+      object-fit: cover;
+      cursor: pointer;
+  }
+  .thumbnail{
+      object-fit: cover;
+      width: 130px;
+      height: 90px;
+      cursor: pointer;
+      opacity: 0.8;
+      margin: 5px;
+  }
+  .thumbnail:hover{
+    opacity:1;
+    transform: scale(2);
+  }
+  #slide-wrapper{
+      max-width: 900px;
+      width: 750px;
+      margin: 0 auto;
+      display: flex;
+      min-height: 200px;
+      align-items: center;
+  }
+  #slider{
+      width: 900rem;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+  }
+  #slider::-webkit-scrollbar {
+      display: none;
+  }
+  .arrow{
+      width: 30px;
+      height: 87px;
+      cursor: pointer;
+      transition: .3s;
+      background-color: #000000;
+  }
+  .arrow:hover{
+      background-color: #1ebba3;
+  }
+
+  /* NEWSLETTER SIGNUP */
+  
+  .newsletter {
+    padding: 7% 15%;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+ }
+ .head3{
+     font-size: 50px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolder;
+ }
+ .btn:hover {
+    background-color:rgb(119, 5, 121);
+    color: white;
+ }
+input[type=text] {
+    width: 50%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* BLOG */
+
+#image2{
+    width: 330px;
+    height:200px;
+}
+.p2{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+/* CONTACT */
+
+#row3{
+    background-color: rgba(241, 200, 14, 0.925);
+}
+.btn-primary {
+    width: 340px;
+}
+
+/* FOOTER */
+
+.head4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+.icon {
+    margin-right: 10px;
+    font-size: 24px;
+} 
+.footer{
+    background-color: white;
+    padding: 40px 40px 20px 40px;
+    color: black;
+}
